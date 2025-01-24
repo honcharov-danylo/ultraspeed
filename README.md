@@ -13,7 +13,7 @@ OpenMP is also needed for multiprocessing.
 run `python setup.py install`
 
 ## Usage:
-To run a matmul implementation for two matrices A, C you need to run:
+To run a matmul implementation for two matrices A, C of type np.float32 and of size (m_size, m_size) you need to run:
 
 `import ultraspeed`
 `ultraspeed.matmul_bitwise(A, C, m_size)`
