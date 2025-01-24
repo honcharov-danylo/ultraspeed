@@ -5,6 +5,7 @@ Main idea of the implementation is to bit-pack binary matrices and run bitwise o
 Package also contains alternative implementations which rely on AMD BLIS library (for benchmarking purposes), hence BLIS and BLIS headers needs to be installed (and file "blis.h" available for import).
 AMD BLIS library can be found [here](https://www.amd.com/en/developer/aocl/blis.html), as well as GCC.
 
+OpenMP is also needed for multiprocessing. 
 
 ![Teaser](teaser2.png)
 
