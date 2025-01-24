@@ -2,7 +2,11 @@
 Fast multiplication of binary square matrices; fast multiplication of non-square matrices is in progress; 
 Main idea of the implementation is to bit-pack binary matrices and run bitwise operations ("ADD" and popcount) instead of multiply-add operations.
 
-Package also contains alternative implementations which rely on BLAS library (for benchmarking purposes), hence OpenBLAS needs to be installed (and file "blis.h" available for import)
+Package also contains alternative implementations which rely on AMD BLIS library (for benchmarking purposes), hence BLIS and BLIS headers needs to be installed (and file "blis.h" available for import).
+AMD BLIS library can be found [here](https://www.amd.com/en/developer/aocl/blis.html), as well as GCC.
+
+
+![Teaser](teaser.png)
 
 ## Installation:
 run python setup.py install
