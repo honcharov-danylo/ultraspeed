@@ -10,10 +10,10 @@ OpenMP is also needed for multiprocessing.
 ![Teaser](teaser2.png)
 
 ## Installation:
-run python setup.py install
+run `python setup.py install`
 
 ## Usage:
 To run a matmul implementation for two matrices A, C you need to run:
 
 `import ultraspeed`
-`ultraspeed.matmul_bitwise(A, C, m_size)
+`ultraspeed.matmul_bitwise(A, C, m_size)`
