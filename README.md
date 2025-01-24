@@ -6,7 +6,7 @@ Package also contains alternative implementations which rely on AMD BLIS library
 AMD BLIS library can be found [here](https://www.amd.com/en/developer/aocl/blis.html), as well as GCC.
 
 
-![Teaser](teaser.png)
+![Teaser](teaser2.png)
 
 ## Installation:
 run python setup.py install
